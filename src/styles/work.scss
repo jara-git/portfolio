@@ -1,0 +1,43 @@
+.work-wrapper {
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+  }
+  .grid {
+    display: grid;
+    margin-top: 20px;
+    margin: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @include media(">=phone", "<lgphone") {
+      width: 95vw;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 95vw;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 95vw;
+    }
+}
+.request-info {
+    display: flex;
+    justify-content: center;
+    animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-499077933162065-1;
+    margin: 0 2rem;
+    text-align: center;
+  }
