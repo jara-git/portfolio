@@ -46,7 +46,7 @@ export default {
         "Progressive Web App. Project for the awareness of dental hygiene for children. With tips for parents and motivation for daily cleaning in children. Illustrations, branding,  UX questionnaires, UI design. Prototyped in Figma, React project", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-       "https://s8.gifyu.com/images/mockup-monsterteeth.jpg",
+        "https://s8.gifyu.com/images/mockup-monsterteeth.jpg",
       //Project URL - Add Your Project Url Here
       url: "https://www.figma.com/proto/HKnmdp1sdQQsgzktDg1OQj/Dental-app?node-id=360%3A74&scaling=min-zoom",
     },
@@ -131,8 +131,8 @@ export default {
     "Professional Competences: Creativity, Management, Planning, Teamwork, Leadership, Communication with client and team, Learning ability",
   aboutImage:
     "https://s8.gifyu.com/images/jara-perfil-gris.jpg",
-  
-// https://s2.gifyu.com/images/ilustracion-building.png
+
+  // https://s2.gifyu.com/images/ilustracion-building.png
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -198,7 +198,7 @@ export default {
     },
     {
       img: codepenIcon,
-      url: "https://www.codepen.com/",
+      url: "https://codepen.io/jara-git",
     },
     {
       img: instagramIcon,
