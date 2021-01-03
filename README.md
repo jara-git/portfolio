@@ -1,4 +1,5 @@
-## **[click here](https://react-portfolio-template.netlify.app/)**.
+## Portfolio. 
+Template from chetanverma.com
 
 ## Technologies Used 
 
