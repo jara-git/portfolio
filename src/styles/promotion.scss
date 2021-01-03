@@ -6,7 +6,10 @@
   align-items: center;
   text-align: center;
   h1 {
-    font-size: 3rem;
-    line-height: 20px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
   }
 }
