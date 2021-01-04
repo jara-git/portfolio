@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import profilePic from "../images/profile-pic.svg"
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img className="profile-pic" src={data.aboutImage} alt="about"></img>
+            <img className="profile-pic" src={profilePic} alt="about"></img>
           </div>
         </div>
       </div>
