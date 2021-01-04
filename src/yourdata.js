@@ -183,7 +183,10 @@ export default {
   //   Promotion Section --------------------------
 
   // promotionHeading: "Never confuse movement with action.",
-  promotionHeading: "Certainly, travel is more than the seeing of sights; it is a change that goes on, deep and permanent, in the ideas of living.",
+  promotionHeading: "Certainly, travel is more ",
+  promotionSubHeading: "than the seeing of sights; it is a change that goes on, ",
+  promotionSubsubHeading: "deep and permanent, in ",
+  promotionSubsubsubHeading: "the ideas of living.",
   promotionPara:
     "I have twelve years of experience in the area of design, two in front-end development, five as a set designer, one in event design and production and four as an architect and graphic artist. Each of these backgrounds is part of a larger picture. The knowledge I learned in various fields can be used interchangeably.",
   // End Promotion Section -----------------

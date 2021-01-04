@@ -8,8 +8,12 @@ const Promotion = () => {
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
-            <h1>{data.promotionHeading}</h1>
-            {/* <p> - Ernest Hemingway</p> */}
+            <h1>
+              <span>{data.promotionHeading}</span>
+              <span>{data.promotionSubHeading}</span>
+              <span>{data.promotionSubsubHeading}</span>
+              <span>{data.promotionSubsubsubHeading}</span>
+            </h1>
             <p>- Mary Ritter Beard </p>
           </Fade>
           <p>{data.promotionPara}</p>
