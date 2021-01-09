@@ -13,7 +13,7 @@
     margin-top: 20px;
     margin: 2rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
