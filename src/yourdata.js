@@ -68,7 +68,7 @@ export default {
         "Web application to collect data from an Arduino plate and graphic visualization of the data for a bacteria inactivation box. UX/UI, website layout. Built in ReactJs", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://imgbox.com/upload/edit/737009163/htxlK7S4NZwWqeVr",
+        "https://imgbox.com/gCM9e03V",
       //Project URL - Add Your Project Url Here
       url: "https://zoe-cedrion.netlify.app/",
     },
