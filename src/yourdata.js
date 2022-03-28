@@ -14,6 +14,14 @@ import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
+// Cards preview images
+import zoe from "./images/mockUp-zoe-3devices.jpg"
+import carolineChampion from "./images/caroline-champion-mockup.png"
+import pulse from "./images/mockup-pulse.jpeg"
+import monsterteeth from "./images/mockup-monsterteeth.jpeg"
+import lapajita from "./images/mockUp-LaPajita.jpg"
+import iunit from "./images/mockup-iunit.jpeg"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -46,7 +54,7 @@ export default {
         "Progressive Web App. Project for the awareness of dental hygiene for children. With tips for parents and motivation for daily cleaning in children. Illustrations, branding,  UX questionnaires, UI design. Prototyped in Figma, React project", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://s8.gifyu.com/images/mockup-monsterteeth.jpg",
+        monsterteeth,
       //Project URL - Add Your Project Url Here
       url: "https://www.figma.com/proto/HKnmdp1sdQQsgzktDg1OQj/Dental-app?node-id=360%3A74&scaling=min-zoom",
     },
@@ -57,7 +65,7 @@ export default {
         "Blog website for Caroline Champion, a flavors explorer ®: transverse profession approaching the taste by various ways, to converge research, art and culinary practice. UI design. Built in Wordpress", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://s8.gifyu.com/images/Screenshot-2021-01-02-at-20.52.47.png",
+        carolineChampion,
       //Project URL - Add Your Project Url Here
       url: "http://caroline-champion.com/",
     },
@@ -67,8 +75,7 @@ export default {
       para:
         "Web application to collect data from an Arduino plate and graphic visualization of the data for a bacteria inactivation box. UX/UI, website layout. Built in ReactJs", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://s2.gifyu.com/images/Screenshot-2021-01-01-at-22.42.10.png",
+      imageSrc: zoe,
       //Project URL - Add Your Project Url Here
       url: "https://zoe-cedrion.netlify.app/",
     },
@@ -79,7 +86,7 @@ export default {
         "Electric and non-electric bicycle shop, for mountain, city, gravel... and rental. With blog section with tips. UI design. Built in Prestashop", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://s8.gifyu.com/images/mockup-pulse.jpg",
+        pulse,
       //Project URL - Add Your Project Url Here
       url: "http://pp2.presta.pls.loco.red/",
     },
@@ -90,7 +97,7 @@ export default {
         "Web application to control the amount of people that can attend a cocktail bar properly. Venues that activate the waiting list enable customers to subscribe to the list. ISDI Hackton project. UI design, prototyping in Figma, website layout. Built in ReactJs", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://s8.gifyu.com/images/mockUp-LaPajitajpg.jpg",
+        lapajita,
       //Project URL - Add Your Project Url Here
       url: "https://www.flickr.com/photos/191612382@N07/shares/jLD755",
     },
@@ -101,7 +108,7 @@ export default {
         "Landing page project for a course.The final product contains the following information: Course description Allusive image Duration Price Mode(online, face- to - face or semi - presential) Calendar(daily, weekends, etc) website layout, UI design ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://s8.gifyu.com/images/mockup-iunit.jpg",
+        iunit,
       //Project URL - Add Your Project Url Here
       url: "https://www.figma.com/file/eSWLbVFgMlCujV8zTZYyx2/IUNITY?node-id=0%3A1",
     },
