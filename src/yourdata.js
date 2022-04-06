@@ -21,6 +21,10 @@ import pulse from "./images/mockup-pulse.jpeg"
 import monsterteeth from "./images/mockup-monsterteeth.jpeg"
 import lapajita from "./images/mockUp-LaPajita.jpg"
 import iunit from "./images/mockup-iunit.jpeg"
+import chanel from "./images/chanel-mockup.png"
+import hellobili from "./images/hellobili-mockup.png"
+import gtt from "./images/gtt-mockup.png"
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -112,17 +116,31 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://www.figma.com/file/eSWLbVFgMlCujV8zTZYyx2/IUNITY?node-id=0%3A1",
     },
-
-    /*
-     To Add More Projects just Copy and Paste This At The End (Update the id Respectively)
-    ,{
-        id: 5,
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
+    {
+      id: 7,
+      title: 'Chanel Haute Jewelry',
+      para: 'Layout and UI Design implementation for Chanels new High Jewelry N°5 Collection. Wireframes in Figma. Website built in Vue, styled with scss',
+      imageSrc: 
+        chanel,
+      url: 'https://www.figma.com/file/pBTxfaRJsT8Ra6FWHWWWMR/CHANEL_N%C2%B05_TEASING-copy?node-id=0%3A1'
+    },
+    {
+      id: 8,
+      title: 'Hello Bili',
+      para: 'Layout and UI Design implementation for Hello Bili, an online electricity and gas tariff comparator. Website built in Wordpress, styled with Sass',
+      imageSrc:
+        hellobili,
+      url: 'https://hellobili.com/'
+    },
+    {
+      id: 9,
+      title: 'Gamin Tout Terrain',
+      para: 'Layout and UI Design implementation for Gamin Tout Terrain, online shop for baby products. Wireframes low and High Fidelity in Illustrator. Website built with Wordpress and Prestashop, styled with Sass. ',
+      imageSrc:
+        gtt,
+      url: 'https://gamin-tout-terrain.com/'
     }
-    */
+   
   ],
 
   // End Work Section -----------------------
@@ -139,7 +157,7 @@ export default {
   aboutImage:
     "https://s8.gifyu.com/images/jara-perfil-gris.jpg",
 
-  // https://s2.gifyu.com/images/ilustracion-building.png
+  
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -183,6 +201,7 @@ export default {
       para:
         "I try to refine and improve my workflow every day. I like mixing different methodologies, in order to get the most out of each one … And keep learning code with each new project",
     },
+    
   ],
 
   // End Skills Section --------------------------
