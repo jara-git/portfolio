@@ -36,7 +36,17 @@
   color: white;
   margin-bottom: 20px;
 }
-.card .content .btn {
+.card .content .btns {
+  width: 130px;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+.card .content .btns .btn {
   background-color: black;
   color: white;
   padding: 10px;
@@ -47,7 +57,7 @@
   border: 1px solid white;
   border-radius: 5px;
 }
-.card .content .btn:hover {
+.card .content .btns .btn:hover {
   background: white;
   color: black;
 }

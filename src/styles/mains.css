@@ -37,7 +37,13 @@
   color: white;
   margin-bottom: 20px;
 }
-.card .content .btn {
+.card .content .buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.card .content .buttons .btn {
   background-color: black;
   color: white;
   padding: 10px;
@@ -48,11 +54,11 @@
   border: 1px solid white;
   border-radius: 5px;
 }
-.card .content .btn:hover {
+.card .content .buttons .btn:hover {
   background: white;
   color: black;
 }
-.card .content:hover {
+.card .content .buttons:hover {
   opacity: 1;
   transform: translate(0, 0px);
 }
@@ -443,7 +449,7 @@
   margin-top: 10px;
 }
 .footer-container icon {
-  color: #39956f;
+  color: rgb(57, 149, 111);
 }
 .footer-container .mailto {
   color: black;

@@ -74,7 +74,7 @@ export default {
       //Project URL
       url: "http://caroline-champion.com/",
       // github code link
-      codeurl: "",
+      codeurl: "https://github.com/jara-git/carolinechampion",
     },
     {
       id: 3,
@@ -99,7 +99,7 @@ export default {
       //Project URL
       url: "http://pp2.presta.pls.loco.red/",
       // github code link
-      codeurl: "https://github.com/Lab-box-cedrion/zoe",
+      codeurl: "https://github.com/jara-git/pulsestore",
     },
     {
       id: 5,
@@ -145,7 +145,7 @@ export default {
         hellobili,
       url: 'https://hellobili.com/',
       // github code link
-      codeurl: "https://github.com/Lab-box-cedrion/zoe",
+      codeurl: "https://github.com/jara-git/hellobili",
     },
     {
       id: 9,
@@ -155,7 +155,7 @@ export default {
         gtt,
       url: 'https://gamin-tout-terrain.com/',
       // github code link
-      codeurl: "https://github.com/Lab-box-cedrion/zoe",
+      codeurl: "https://github.com/jara-git/gtt",
     }
 
   ],

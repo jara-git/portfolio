@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, codeLink }) => {
   return (
     <div
       className="card"
@@ -14,14 +14,25 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Explore
-        </a>
+        <div className="btns">
+          <a
+            href={projectLink ? projectLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            Explore
+          </a>
+          <a
+            href={codeLink ? codeLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            Code
+          </a>
+        </div>
+        
       </div>
     </div>
   )
