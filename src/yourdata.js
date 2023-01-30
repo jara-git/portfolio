@@ -97,7 +97,7 @@ export default {
       imageSrc:
         pulse,
       //Project URL
-      url: "http://pp2.presta.pls.loco.red/",
+      url: "https://pulsestore.be/",
       // github code link
       codeurl: "https://github.com/jara-git/pulsestore",
     },
